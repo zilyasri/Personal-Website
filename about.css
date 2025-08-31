@@ -1,0 +1,150 @@
+body {
+    background-color: #FEF6DD;
+      font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    max-width: 1000px;
+    gap: 30px;
+}
+
+.about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h1 {
+    color: #5C72CB;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5C72CB;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #3e52a3;
+}
+
+.skills-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5C72CB;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+}
+
+.skills-section {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #FEF6DD;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #5C72CB;
+    margin-bottom: 40px;
+}
+
+.skills-wrapper {
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #444;
+    margin: 0;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+}
